@@ -127,7 +127,7 @@ function formatStream(stream, providerName) {
 
     // Add antenna emoji if provider exists
     if (pName) {
-        pName = `📡 ${pName}`;
+        pName = `⚙️ ${pName}`;
     }
 
     // Move headers to behaviorHints if present, but keep original for compatibility.
