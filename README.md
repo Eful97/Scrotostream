@@ -26,7 +26,7 @@ Per installare i provider su Nuvio, basta seguire questi semplici passaggi:
 2.  Vai nelle **Impostazioni** > **Plugin**.
 3.  Incolla il seguente link nel campo apposito per aggiungere un plugin esterno:
     ```text
-    https://raw.githubusercontent.com/realbestia1/easystreams/refs/heads/main/
+    https://raw.githubusercontent.com/Eful97/Provaeasy/master/
     ```
 4.  I provider saranno immediatamente attivi.
 
@@ -89,4 +89,4 @@ Quando l'addon viene eseguito su un server remoto (non in locale), alcuni provid
 
 ---
 
-**Powered by [realbestia1](https://github.com/realbestia1/)**
+**Forked from [realbestia1/easystreams](https://github.com/realbestia1/easystreams/)**
