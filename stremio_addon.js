@@ -1270,9 +1270,9 @@ function getProviderExecutionOrder(type, providerId, requestContext, animeRoutin
 }
 
 const builder = new addonBuilder({
-    id: 'org.bestia.easystreams',
+    id: 'org.scrotostream',
     version: '1.1.1',
-    name: 'Easy Streams',
+    name: 'ScrotoStream',
     description: 'Italian Streams providers',
     catalogs: [],
     resources: ['stream'],
