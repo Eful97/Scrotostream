@@ -1,0 +1,26 @@
+services:
+  easystreams:
+    build: .
+    container_name: easystreams
+    ports:
+      - "7000:7000"
+    environment:
+      - PORT=7000
+      - NODE_ENV=production
+      - VERBOSE_LOGS=0
+      - QUIET_PROVIDER_LOGS=1
+      - FLARESOLVERR_URL=http://flaresolverr:8191/v1
+    restart: unless-stopped
+    depends_on:
+      - flaresolverr
+
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    environment:
+      - LOG_LEVEL=info
+      - CAPTCHA_SOLVER=none
+      - TZ=Europe/Rome
+    ports:
+      - "8191:8191"
+    restart: unless-stopped
