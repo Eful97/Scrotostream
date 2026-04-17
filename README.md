@@ -1,6 +1,6 @@
 # Nuvio Plugin & Stremio Addon
 
-Questo repository contiene una collezione di provider italiani per lo streaming di Film, Serie TV e Anime.
+Questo repository contiene una collezione di provider italiani per lo streaming di Film, Serie TV e Anime chiamato **ScrotoStream**.
 Il progetto è progettato per essere versatile e può essere utilizzato in due modi diversi:
 
 1.  Come **Plugin per Nuvio**
