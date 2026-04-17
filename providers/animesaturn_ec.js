@@ -42,8 +42,8 @@ var require_formatter = __commonJS({
       let quality = stream.quality || "";
       if (quality === "2160p") quality = "\u{1F525}4K UHD";
       else if (quality === "1440p") quality = "\u2728 QHD";
-      else if (quality === "1080p") quality = "\u{1F680} FHD";
-      else if (quality === "720p") quality = "\u{1F4BF} HD";
+      else if (quality === "1080p") quality = "\u{1F44C} FHD";
+      else if (quality === "720p") quality = "\u26A1 HD";
       else if (quality === "576p" || quality === "480p" || quality === "360p" || quality === "240p") quality = "\u{1F4A9} Low Quality";
       else if (!quality || ["auto", "unknown", "unknow"].includes(String(quality).toLowerCase())) quality = "Unknow";
       let title = `\u{1F4C1} ${stream.title || "Stream"}`;
@@ -64,7 +64,7 @@ var require_formatter = __commonJS({
         pName = pName.charAt(0).toUpperCase() + pName.slice(1);
       }
       if (pName) {
-        pName = `\u{1F4E1} ${pName}`;
+        pName = `\u2699\uFE0F ${pName}`;
       }
       const behaviorHints = stream.behaviorHints && typeof stream.behaviorHints === "object" ? { ...stream.behaviorHints } : {};
       let finalHeaders = stream.headers;
