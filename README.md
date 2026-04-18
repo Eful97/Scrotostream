@@ -1,6 +1,8 @@
-# Nuvio Plugin & Stremio Addon
+# ScrotoStream - Nuvio Plugin & Stremio Addon
 
-Questo repository contiene una collezione di provider italiani per lo streaming di Film, Serie TV e Anime chiamato **ScrotoStream**.
+[![CI](https://github.com/Eful97/Provaeasy/actions/workflows/ci.yml/badge.svg)](https://github.com/Eful97/Provaeasy/actions/workflows/ci.yml)
+
+Questo repository contiene una collezione di provider italiani per lo streaming di Film, Serie TV e Anime chiamato **ScrotoStream** (fork di easystreams di realbestia1).
 Il progetto è progettato per essere versatile e può essere utilizzato in due modi diversi:
 
 1.  Come **Plugin per Nuvio**
