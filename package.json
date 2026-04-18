@@ -1,7 +1,7 @@
 {
   "name": "scrotostream",
   "version": "1.1.1",
-  "description": "",
+  "description": "ScrotoStream - Italian streaming providers for Nuvio/Stremio",
   "main": "stremio_addon.js",
   "scripts": {
     "test": "node test/formatter.test.js",
