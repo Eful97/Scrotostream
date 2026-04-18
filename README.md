@@ -17,6 +17,7 @@ Il progetto è progettato per essere versatile e può essere utilizzato in due m
 -   **GuardaSerie** (Serie TV)
 -   **GuardoSerie** (Film & Serie TV)
 -   **StreamingCommunity** (Film & Serie TV)
+-   **Videasy** (Player Embed)
 
 ---
 
