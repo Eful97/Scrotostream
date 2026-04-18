@@ -1,6 +1,6 @@
 # ScrotoStream - Nuvio Plugin & Stremio Addon
 
-[![CI](https://github.com/Eful97/Provaeasy/actions/workflows/ci.yml/badge.svg)](https://github.com/Eful97/Provaeasy/actions/workflows/ci.yml)
+[![CI](https://github.com/Eful97/Scrotostream/actions/workflows/ci.yml/badge.svg)](https://github.com/Eful97/Scrotostream/actions/workflows/ci.yml)
 
 Questo repository contiene una collezione di provider italiani per lo streaming di Film, Serie TV e Anime chiamato **ScrotoStream** (fork di easystreams di realbestia1).
 Il progetto è progettato per essere versatile e può essere utilizzato in due modi diversi:
@@ -29,7 +29,7 @@ Per installare i provider su Nuvio, basta seguire questi semplici passaggi:
 2.  Vai nelle **Impostazioni** > **Plugin**.
 3.  Incolla il seguente link nel campo apposito per aggiungere un plugin esterno:
     ```text
-    https://raw.githubusercontent.com/Eful97/Provaeasy/master/
+    https://raw.githubusercontent.com/Eful97/Scrotostream/master/
     ```
 4.  I provider saranno immediatamente attivi.
 
