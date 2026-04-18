@@ -89,4 +89,4 @@ Quando l'addon viene eseguito su un server remoto (non in locale), alcuni provid
 
 ---
 
-**Forked from [realbestia1/easystreams](https://github.com/realbestia1/easystreams/)**
+**Forked from [realbestia1/easystreams](https://github.com/realbestia1/easystreams/) (renamed to ScrotoStream)**
